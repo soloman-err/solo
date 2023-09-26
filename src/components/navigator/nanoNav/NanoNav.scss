@@ -1,0 +1,18 @@
+$solored: #008329;
+
+.nano-nav {
+  left: 0;
+  bottom: 0;
+  gap: 10px;
+  display: flex;
+  position: fixed;
+  font-size: 1.2rem;
+  width: fit-content;
+  flex-direction: column;
+
+  .icon:hover:hover {
+    opacity: 90;
+    overflow: hidden;
+    font-size: 1.3rem;
+  }
+}
