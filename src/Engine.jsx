@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import About from './components/about/About';
+import { Outlet } from 'react-router-dom';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import Navigator from './components/navigator/Navigator';
@@ -23,7 +23,8 @@ const Engine = () => {
         <Navigator />
         <div className="engine-core">
           {loading && <Spinner />}
-          <About />
+          <Outlet />
+          {/* <About /> */}
           {/* <NanoNav /> */}
         </div>
       </div>
