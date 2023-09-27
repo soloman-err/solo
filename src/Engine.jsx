@@ -24,8 +24,6 @@ const Engine = () => {
         <div className="engine-core">
           {loading && <Spinner />}
           <Outlet />
-          {/* <About /> */}
-          {/* <NanoNav /> */}
         </div>
       </div>
       <div>

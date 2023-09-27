@@ -5,7 +5,6 @@ const IPAddress = () => {
   const [ipAddress, setIpAddress] = useState('');
 
   useEffect(() => {
-    // Fetch the IP address from a public API
     fetch('https://api64.ipify.org?format=json')
       .then((response) => response.json())
       .then((data) => {
