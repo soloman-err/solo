@@ -60,26 +60,9 @@ const About = () => {
     document.body.removeChild(downloadLink);
   };
 
-  // Parallax:
-  // const handleScroll = () => {
-  //   setScrollPosition(window.scrollY);
-  // };
-
-  // useEffect(() => {
-  //   window.addEventListener('scroll', handleScroll);
-  //   return () => {
-  //     window.removeEventListener('scroll', handleScroll);
-  //   };
-  // }, []);
-
-  // const parallaxStyle = (factor) => ({
-  //   transform: `translate3d(0, ${-scrollPosition * factor}px, 0)`,
-  // });
-
   return (
     <section className="about">
       <div className="img">
-        {/* <img className="glitch" src="/solo-qr.png" alt="" /> */}
       </div>
 
       <div className="info">

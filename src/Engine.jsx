@@ -16,15 +16,13 @@ const Engine = () => {
   }, []);
 
   return (
-    <div
-      className="engine"
-    >
-      <Header/>
+    <div className="engine">
+      <Header />
       <Navigator />
       {loading && <Spinner />}
       <About />
       <NanoNav />
-      <Footer/>
+      <Footer />
     </div>
   );
 };

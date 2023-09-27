@@ -1,0 +1,10 @@
+.location {
+  font-size: 12px;
+  opacity: 0.8;
+  display: flex;
+
+  span {
+    display: flex;
+    flex-direction: row;
+  }
+}

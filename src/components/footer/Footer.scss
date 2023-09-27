@@ -1,12 +1,40 @@
-$solored: #008329;
+$solored: #008028;
 
 footer {
   position: absolute;
-  right: 5px;
+  right: 10px;
   bottom: 5px;
   font-size: 12px;
   padding-top: 10px;
-  width: 90%;
   border-top: 1px solid $solored;
   text-align: end;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  footer {
+    width: 85%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  footer {
+    width: 90%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  footer {
+    width: 95%;
+  }
 }

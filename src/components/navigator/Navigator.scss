@@ -1,5 +1,5 @@
 // CUSTOM VARIABLES:
-$solored: #008329;
+$solored: #008028;
 $dark: #212121;
 
 // HAMBURGER
@@ -59,16 +59,31 @@ $dark: #212121;
   justify-content: space-between;
 
   nav {
-    font-size: 1.4rem;
+    margin-top: 60px;
+    height: 100%;
+    width: 25px;
+    font-size: 1.2rem;
 
     ul {
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 200px;
       list-style-type: none;
 
+      li {
+        transform: rotate(90deg);
+      }
+
       .link {
+        color: $solored;
         text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        &:hover .terminal_underscore {
+          animation: blink 0.8s linear infinite;
+        }
       }
     }
   }
@@ -137,6 +152,18 @@ $dark: #212121;
     &:hover {
       cursor: pointer;
     }
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
