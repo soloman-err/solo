@@ -3,7 +3,6 @@ import About from './components/about/About';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import Navigator from './components/navigator/Navigator';
-import NanoNav from './components/navigator/nanoNav/NanoNav';
 import Spinner from './components/spinner/Spinner';
 
 const Engine = () => {
@@ -16,13 +15,21 @@ const Engine = () => {
   }, []);
 
   return (
-    <div className="engine">
-      <Header />
-      <Navigator />
-      {loading && <Spinner />}
-      <About />
-      <NanoNav />
-      <Footer />
+    <div className="engine-container">
+      <div>
+        <Header />
+      </div>
+      <div className="engine-body">
+        <Navigator />
+        <div className="engine-core">
+          {loading && <Spinner />}
+          <About />
+          {/* <NanoNav /> */}
+        </div>
+      </div>
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 };

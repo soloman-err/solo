@@ -3,7 +3,12 @@ import './Footer.scss';
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
-  return <footer>{'////'} © {currentYear} Soloman - Design & Code</footer>;
+  return (
+    <footer>
+      <div></div>
+      {'////'} © {currentYear} Soloman - Design & Code
+    </footer>
+  );
 };
 
 export default Footer;

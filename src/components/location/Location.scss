@@ -1,9 +1,11 @@
 .location {
-  font-size: 12px;
+  font-size: 10px;
   opacity: 0.8;
   display: flex;
+  gap: 10px;
 
   span {
+    // width: 120px;
     display: flex;
     flex-direction: row;
   }

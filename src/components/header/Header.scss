@@ -1,14 +1,17 @@
-$solored: #008028;
+$sologreen: #008028;
+$bg: #00802938;
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
+  padding: 5px;
+  background-color: $bg;
 
   .star {
     font-size: 20px;
-    opacity: 0.5;
+    opacity: 0.8;
     display: flex;
     justify-content: center;
   }

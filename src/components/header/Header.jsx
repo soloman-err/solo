@@ -6,8 +6,14 @@ import './Header.scss';
 const Header = () => {
   return (
     <header>
-      <Location /> <div className="star"><span>{'*'}</span></div>
-      <Clock /> <div className="star"><span>{'*'}</span></div>
+      <Location />{' '}
+      <div className="star">
+        <span>{'*'}</span>
+      </div>
+      <Clock />{' '}
+      <div className="star">
+        <span>{'*'}</span>
+      </div>
       <IPAddress />
     </header>
   );

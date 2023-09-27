@@ -1,5 +1,5 @@
 // CUSTOM VARIABLES:
-$solored: #008028;
+$sologreen: #008028;
 $dark: #212121;
 
 // HAMBURGER
@@ -18,7 +18,7 @@ $dark: #212121;
   height: $height;
   width: $width;
   top: 30px;
-  background-color: $solored;
+  background-color: $sologreen;
 }
 
 @mixin icon-before($height, $width, $top) {
@@ -26,7 +26,7 @@ $dark: #212121;
   position: absolute;
   width: $width;
   height: $height;
-  background-color: $solored;
+  background-color: $sologreen;
   content: '';
   top: $top;
 }
@@ -36,7 +36,7 @@ $dark: #212121;
   position: absolute;
   width: $width;
   height: $height;
-  background-color: $solored;
+  background-color: $sologreen;
   content: '';
   top: $top;
 }
@@ -57,9 +57,13 @@ $dark: #212121;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  background-color: #0024003d;
+  height: 100%;
+  width: 25px;
+  padding: 10px;
+  border-right: 1px solid $sologreen;
 
   nav {
-    margin-top: 60px;
     height: 100%;
     width: 25px;
     font-size: 1.2rem;
@@ -75,7 +79,7 @@ $dark: #212121;
       }
 
       .link {
-        color: $solored;
+        color: $sologreen;
         text-decoration: none;
         display: flex;
         align-items: center;

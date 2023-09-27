@@ -1,26 +1,29 @@
-$solored: #008028;
+$sologreen: #008028;
+$bg: #00802938;
 
 footer {
-  position: absolute;
-  right: 10px;
-  bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  align-items: center;
   font-size: 12px;
-  padding-top: 10px;
-  border-top: 1px solid $solored;
   text-align: end;
+  border-top: 1px solid $sologreen;
+  background-color: $bg;
+  height: 50px;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   footer {
-    width: 85%;
+    // width: 85%;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   footer {
-    width: 90%;
+    // width: 90%;
   }
 }
 
@@ -35,6 +38,6 @@ footer {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   footer {
-    width: 95%;
+    // width: 95%;
   }
 }

@@ -89,7 +89,7 @@ const Navigator = () => {
         <div className="icon-right"></div>
       </div> */}
 
-      <nav className="text-2xl">
+      <nav className="">
         <ul>
           {navItems.map((item, index) => (
             <li key={index}>
