@@ -1,16 +1,9 @@
-import {
-  FaDiscord,
-  FaGithubSquare,
-  FaLinkedin,
-  FaTwitterSquare,
-} from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 import './About.scss';
 
 const About = () => {
   return (
     <div className="route">
-      <h1>About</h1>
+      <h1 className='skull'>About</h1>
       <section className="about-container">
         <div className="about">
           {/* <Card/> */}
@@ -32,7 +25,7 @@ const About = () => {
             Connect with me today!
           </p>
 
-          <div className="social-container">
+          {/* <div className="social-container">
             <div className="line">{'/'}</div>
             <div className="social">
               <Link to={'https://github.com/soloman-err'} target="_blank">
@@ -57,7 +50,7 @@ const About = () => {
                 <FaLinkedin size={28} />
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>

@@ -47,12 +47,13 @@ body {
       .route {
         text-transform: uppercase;
         font-size: 1em;
-        letter-spacing: 2em;
 
-        h1 {
+        // PAGE-ROUTE-HEADER:
+        .skull {
           opacity: 0.3;
           font-size: 4em;
           border-bottom: 1px solid $sologreen;
+          letter-spacing: 1rem;
         }
       }
     }

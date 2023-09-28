@@ -67,9 +67,9 @@ const Navigator = () => {
   };
 
   // MENU TOGGLER:
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
+  // const toggleMenu = () => {
+  //   setIsMenuOpen(!isMenuOpen);
+  // };
 
   // NAV ITEMS:
   const navItems = [

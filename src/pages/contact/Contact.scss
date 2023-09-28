@@ -1,0 +1,37 @@
+$black: #0f1020;
+$white: #f1f1f1;
+$red: #dd1b1b;
+$yellow: #dfab00;
+$sologreen: #008028;
+$bg: #00802938;
+
+$space-size: 8px;
+$space-size-2: $space-size * 2;
+$space-size-3: $space-size * 3;
+$space-size-4: $space-size * 4;
+$space-size-5: $space-size * 5;
+$space-size-6: $space-size * 6;
+$space-size-7: $space-size * 7;
+$space-size-8: $space-size * 8;
+
+.container {
+  display: flex;
+  justify-content: start;
+
+  .social-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+
+    .social {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+
+      a {
+        font-size: 100px;
+      }
+    }
+  }
+}
