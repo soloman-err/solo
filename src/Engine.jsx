@@ -23,7 +23,8 @@ const Engine = () => {
         <Navigator />
         <div className="engine-core">
           {loading && <Spinner />}
-          <Outlet />
+          {/* <Root /> */ }
+          <Outlet/>
         </div>
       </div>
       <div>

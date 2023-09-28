@@ -5,10 +5,7 @@ const Projects = () => {
     <div className="projects route">
       <h1 className='skull'>Projects</h1>
 
-      <div className='underconstruction'>
-        <span className='txt'>UNDER CONSTRUCTION</span>
-        <span className='sign'>⚠️</span>
-      </div>
+      <span>. . .</span>
     </div>
   );
 };

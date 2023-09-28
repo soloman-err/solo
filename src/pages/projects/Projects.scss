@@ -1,44 +1,10 @@
 $sologreen: #008028;
 
 .projects {
-  .underconstruction {
-    font-size: 2em;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 10%;
-    display: flex;
-    flex-direction: column;
-
-    .txt {
-      //
-    }
-
-    .sign {
-      font-size: 5em;
-    }
-  }
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .projects {
-    .underconstruction {
-      font-size: 1em;
-      font-weight: bold;
-      text-align: center;
-      margin-top: 10%;
-      display: flex;
-      flex-direction: column;
-
-      .txt {
-        //
-      }
-
-      .sign {
-        font-size: 3em;
-      }
-    }
-  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

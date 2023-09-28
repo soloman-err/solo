@@ -62,6 +62,39 @@ body {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  body {
+    .engine-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100vh;
+
+      .engine-body {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+      }
+
+      .engine-core {
+        width: 100%;
+
+        // PAGE-ROUTES:
+        .route {
+          text-transform: uppercase;
+          font-size: 0.5em;
+
+          // PAGE-ROUTE-HEADER:
+          .skull {
+            opacity: 0.3;
+            font-size: 4em;
+            border-bottom: 1px solid $sologreen;
+            letter-spacing: 1rem;
+          }
+        }
+      }
+    }
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
