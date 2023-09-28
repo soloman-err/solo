@@ -8,7 +8,7 @@ const Navigator = () => {
   const [activeLink, setActiveLink] = useState(null);
   const [displayTexts, setDisplayTexts] = useState(Array(3).fill(''));
   const [intervalIds, setIntervalIds] = useState(Array(3).fill(null));
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  // const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const onMouseOver = (e, index) => {
     let iteration = 0;
