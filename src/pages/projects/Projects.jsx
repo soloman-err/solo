@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import Card from '../../components/card/Card';
 import './Projects.scss';
 
 const Projects = () => {
@@ -39,9 +40,7 @@ const Projects = () => {
       <h1 className="skull">Projects</h1>
 
       <div className="projects-container">
-        <span className="dots">{loadingDots}</span>
-        UPCOMING RELEASE
-        <span className="dots">{loadingDots}</span>
+        <Card/>
       </div>
     </div>
   );

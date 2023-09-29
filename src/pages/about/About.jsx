@@ -14,15 +14,10 @@ const About = () => {
               It stems from the inner depths of passion.
             </span>
             <br />
-            Allow me to introduce myself as a skilled Full-Stack Web Developer.
-            I specialize in developing dynamic interfaces that engage users and
-            prioritize responsive design. With expertise in: HTML5 | CSS3 |
-            Bootstrap | Tailwind | JavaScript | Node | React 💻
-            <br />
-            Lets collaborate to bring your vision to life with my seasoned
-            skills and unwavering passion for excellence. Together, we can
-            create outstanding web solutions that leave a lasting impact.
-            Connect with me today!
+            Allow me to introduce myself as a experienced Full-Stack Web
+            Developer skilled in JavaScript, React, Redux, Node, Express, Mongo,
+            Sass, Bootstrap, Tailwind, Firebase, Github. Passionate about
+            creating engaging and responsive web interfaces.
           </p>
         </div>
       </section>

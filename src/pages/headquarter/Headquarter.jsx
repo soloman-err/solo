@@ -7,7 +7,7 @@ const Headquarter = () => {
 
       <div className="underconstruction">
         <div className="sign">
-          <img src="/device.png" alt="device" />
+          <img src="/device.png" alt="device" className="" />
         </div>
         <div className="txt">UNDER CONSTRUCTION</div>
       </div>

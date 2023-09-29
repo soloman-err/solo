@@ -1,14 +1,10 @@
 $sologreen: #008028;
+$bg: #00802938;
 
 .projects {
   .projects-container {
+    margin: auto;
     text-align: center;
-    font-size: 4em;
-    margin-top: 15%;
-
-    .dots {
-      font-size: 50px;
-    }
   }
 }
 

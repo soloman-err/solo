@@ -1,42 +1,59 @@
-import { useState } from 'react';
+import { FaArrowRight } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 import './Card.scss';
 
+const cardData = [
+  {
+    id: 1,
+    to: 'https://cyco-inc.netlify.app/',
+    imgUrl: '/cyco.png',
+    title: 'CYCO - Streaming Platform',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+  {
+    id: 2,
+    to: 'https://alphabetor.netlify.app/',
+    imgUrl: '/alphabetor.png',
+    title: 'Alphabetor',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+  {
+    id: 3,
+    to: 'https://brmmm.netlify.app/',
+    imgUrl: '/brmmm.png',
+    title: 'Brmmm',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+  {
+    id: 4,
+    to: 'https://soloby.netlify.app/',
+    imgUrl: '/soloby.png',
+    title: 'Soloby',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+];
+
 const Card = () => {
-  const [isHovered, setIsHovered] = useState(false);
-
-  const handleHover = () => {
-    setIsHovered(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
-
   return (
-    <figure
-      id="card-1"
-      className={isHovered ? 'hovered' : ''}
-      onMouseEnter={handleHover}
-      onMouseLeave={handleMouseLeave}
-    >
-      <img src="https://i.imgur.com/ihZ6qn6.png" alt="placeholder" />
-      <figcaption>
-        The Fool is everyone - including you and me. Each step he takes on his
-        journey feels like stepping into a brave new world. Ultimately, the
-        journey will change him. But as the card shows, he is a trustworthy lad
-        whose tireless hope drives him toward his goal.
-      </figcaption>
-      <div className="decor" aria-hidden="true"></div>
-    </figure>
+    <div className="card-container">
+      {cardData.map((card) => (
+        <div className="card" key={card?.id}>
+          <img className="card-image" src={card?.imgUrl} alt="Card" />
+          <div className="card-content">
+            <div className="card-title">{card?.title}</div>
+            <Link to={card?.to} target="_blank">
+              <button>
+                <span>
+                  Visit Site
+                  <FaArrowRight />
+                </span>
+              </button>
+            </Link>
+          </div>
+        </div>
+      ))}
+    </div>
   );
 };
 
 export default Card;
-
-// {
-//   num: '0',
-//   title: 'The Fool',
-//   url: 'https://i.imgur.com/ihZ6qn6.png',
-//   description:
-//     "The Fool is everyone - including you and me. Each step he takes on his journey feels like stepping into a brave new world. Ultimately, the journey will change him. But as the card shows, he's a trustworthy lad whose tireless hope drives him toward his goal.",
-// },

@@ -6,7 +6,7 @@ import './Header.scss';
 
 const Header = () => {
   return (
-    <header>
+    <header className=''>
       {/* <Location /> */}
       <Link to={'/'}>
         <FaPowerOff size={20} />
