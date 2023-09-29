@@ -28,7 +28,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaTwitterSquare size={100} />
+              <FaTwitterSquare />
             </a>
 
             <a

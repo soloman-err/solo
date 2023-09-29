@@ -7,6 +7,7 @@ const Location = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [loadingDots, setLoadingDots] = useState('');
 
+  // LAT & LON:
   useEffect(() => {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(

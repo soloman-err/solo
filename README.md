@@ -1,3 +1,3 @@
 ## SOLO
 
-- [https://soloman.vercel.app](https://soloman.vercel.app/)
+- [https://soloskull.netlify.app](https://soloskull.netlify.app)

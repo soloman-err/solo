@@ -1,6 +1,15 @@
 $sologreen: #008028;
 
 .projects {
+  .projects-container {
+    text-align: center;
+    font-size: 4em;
+    margin-top: 15%;
+
+    .dots {
+      font-size: 50px;
+    }
+  }
 }
 
 /* Extra small devices (phones, 600px and down) */

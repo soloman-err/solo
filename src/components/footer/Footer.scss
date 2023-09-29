@@ -2,16 +2,20 @@ $sologreen: #008028;
 $bg: #00802938;
 
 footer {
+  height: 50px;
+  padding: 0 10px;
+  font-size: 10px;
+  text-align: end;
+  margin-top: auto;
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  padding: 0 10px;
-  align-items: center;
-  font-size: 12px;
-  text-align: end;
   border-top: 1px solid $sologreen;
   background-color: $bg;
-  height: 50px;
-  margin-top: auto;
+
+  .slider {
+    font-weight: bold;
+  }
 }
 
 /* Extra small devices (phones, 600px and down) */

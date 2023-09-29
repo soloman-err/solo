@@ -5,8 +5,10 @@ const Footer = () => {
 
   return (
     <footer>
-      <div></div>
-      {'////'} © {currentYear} Soloman - Design & Code
+      <div className="slider">
+        <marquee>欢 迎 来 到 所 罗 门 总 部。</marquee>
+      </div>
+      ©{currentYear} Soloman - Design & Code
     </footer>
   );
 };

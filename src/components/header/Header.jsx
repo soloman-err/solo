@@ -1,12 +1,16 @@
+import { FaPowerOff } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 import Clock from '../clock/Clock';
 import IPAddress from '../ipAddress/IPAddress';
-import Location from '../location/location';
 import './Header.scss';
 
 const Header = () => {
   return (
     <header>
-      <Location />{' '}
+      {/* <Location /> */}
+      <Link to={'/'}>
+        <FaPowerOff size={20} />
+      </Link>
       <div className="star">
         <span>{'*'}</span>
       </div>

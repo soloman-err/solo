@@ -1,7 +1,5 @@
 $black: #0f1020;
 $white: #f1f1f1;
-$red: #dd1b1b;
-$yellow: #dfab00;
 $sologreen: #008028;
 $bg: #00802938;
 
@@ -31,6 +29,136 @@ $space-size-8: $space-size * 8;
 
       a {
         font-size: 100px;
+      }
+    }
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    justify-content: start;
+
+    .social-container {
+      display: flex;
+      flex-direction: column;
+      padding-top: 10px;
+
+      .social {
+        padding-left: 5px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+
+        a {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) {
+  .container {
+    display: flex;
+    justify-content: start;
+
+    .social-container {
+      display: flex;
+      flex-direction: column;
+      padding-top: 10px;
+
+      .social {
+        padding-left: 5px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+
+        a {
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: start;
+
+    .social-container {
+      display: flex;
+      flex-direction: column;
+      padding-top: 10px;
+
+      .social {
+        padding-left: 5px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+
+        a {
+          font-size: 50px;
+        }
+      }
+    }
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .container {
+    display: flex;
+    justify-content: start;
+
+    .social-container {
+      display: flex;
+      flex-direction: column;
+      padding-top: 10px;
+
+      .social {
+        padding-left: 5px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+
+        a {
+          font-size: 60px;
+        }
+      }
+    }
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container {
+    display: flex;
+    justify-content: start;
+
+    .social-container {
+      display: flex;
+      flex-direction: column;
+      padding-top: 10px;
+
+      .social {
+        padding-left: 5px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+
+        a {
+          font-size: 80px;
+        }
       }
     }
   }

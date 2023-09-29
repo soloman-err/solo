@@ -37,7 +37,6 @@ body {
       height: 100%;
       display: flex;
       flex-direction: row;
-      gap: 10px;
     }
 
     .engine-core {
@@ -73,7 +72,43 @@ body {
         height: 100%;
         display: flex;
         flex-direction: row;
-        gap: 10px;
+      }
+
+      .engine-core {
+        width: 100%;
+
+        // PAGE-ROUTES:
+        .route {
+          text-transform: uppercase;
+          font-size: 0.5em;
+
+          // PAGE-ROUTE-HEADER:
+          .skull {
+            opacity: 0.3;
+            font-size: 1.5em;
+            border-bottom: 1px solid $sologreen;
+            letter-spacing: 1rem;
+            padding: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) {
+  body {
+    .engine-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100vh;
+
+      .engine-body {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
       }
 
       .engine-core {
@@ -90,15 +125,12 @@ body {
             font-size: 4em;
             border-bottom: 1px solid $sologreen;
             letter-spacing: 1rem;
+            padding: 5px;
           }
         }
       }
     }
   }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 601px) {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
